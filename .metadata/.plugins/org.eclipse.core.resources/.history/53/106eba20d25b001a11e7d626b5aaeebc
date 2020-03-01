@@ -1,0 +1,27 @@
+package CollectionPractice;
+
+import java.util.*;
+
+public class SetPractice {
+
+	public static void main(String[] args) {
+		
+		HashSet <String> h = new HashSet();
+		
+		h.add("Raj");
+		h.add("Sai");
+		h.add("How");
+		h.add("are");
+		h.add("you");
+		h.add("?");
+		h.remove("Sai");
+		
+		Iterator it = h.iterator();
+			while(it.hasNext()) {
+				System.out.println(it.next());
+			}
+	}
+	
+	
+
+}

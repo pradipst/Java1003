@@ -1,0 +1,26 @@
+package com.tutorial.rajib;
+
+public class StringPractice2 {
+
+   int j = 20;
+	static int occurance(String s, char c) {
+
+		int count =0;
+		for(int i=0; i<s.length();i++ ) {
+
+			if( s.charAt(i)==c) {
+				count = count+1;
+			}
+		}
+		return count;
+
+	}
+	public static void main(String[] args) {
+
+		String input=" Hello World";
+		System.out.println( occurance(input, 'l')); 
+		
+		System.out.println(j);
+	}
+	
+}

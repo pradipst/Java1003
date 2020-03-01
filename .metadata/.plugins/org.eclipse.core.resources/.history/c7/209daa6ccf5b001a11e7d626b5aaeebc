@@ -1,0 +1,22 @@
+package CollectionPractice;
+
+import java.util.*;
+
+public class QueuePractice {
+
+	public static void main(String[] args) {
+		
+		Queue q1 = new PriorityQueue();
+		
+		
+		q1.add("Raj");
+		q1.add("Sai");
+		
+		Iterator it = q1.iterator();
+		while(it.hasNext()) {
+			System.out.println(it.next());
+		}
+
+	}
+
+}

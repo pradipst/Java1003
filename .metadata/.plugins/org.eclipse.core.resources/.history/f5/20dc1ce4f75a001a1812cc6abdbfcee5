@@ -1,0 +1,19 @@
+package com.tutorial.rajib;
+
+public class StringPractice {
+
+	int i=4;
+	String s ="Raj";
+	public static void main(String[] args) {
+		
+
+		String input="Welcome to Java World";
+		
+		StringPractice sp = new StringPractice();
+		sp.i = 10;
+		System.out.println(sp.i);
+		sp.s.concat("Rajib");	
+		System.out.println(sp.s);
+	}
+
+}

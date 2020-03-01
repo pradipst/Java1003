@@ -1,0 +1,12 @@
+package com.tutorial.rajib;
+
+public class StringPractice {
+
+	public static void main(String[] args) {
+		
+
+		String input= “Welcome to Java World”;
+			
+	}
+
+}

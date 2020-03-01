@@ -1,0 +1,42 @@
+package com.tutorial.rajib;
+
+public class StringPractice {
+
+
+
+	public static void main(String[] args) {
+
+
+		String input="Welcome to Java World";
+
+		System.out.println(input.charAt(5));
+		System.out.println(input.compareToIgnoreCase("Welcome"));
+		System.out.println(input.concat("Let us Learn"));
+
+		for(int i=0 ; i<input.length(); i++) {
+
+			//System.out.println(input.charAt(i));
+			if(input.charAt(i)=='a') {
+				System.out.println(i);
+				break;
+			}
+
+		}
+			
+		System.out.println(input.replace('a', 'e'));
+		System.out.println(input.substring(4, 10));
+		System.out.println(input.toLowerCase());
+		System.out.println(input.indexOf('a'));
+		System.out.println(input.indexOf('a', input.indexOf('a')+1));
+		
+		System.out.println(StringPractice2.str);
+		StringPractice2 abc = new StringPractice2();
+		System.out.println(abc.j);
+		
+		
+		
+
+
+	}
+
+}

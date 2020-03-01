@@ -1,0 +1,44 @@
+package CollectionPractice;
+
+import java.util.*;
+
+public class SetPractice {
+
+	public static void main(String[] args) {
+		
+		HashSet <String> h = new HashSet();
+		
+		h.add("Raj");
+		h.add("Sai");
+		h.add("How");
+		h.add("are");
+		h.add("you");
+		h.add("?");
+		h.remove("Sai");
+		
+		/*
+		 * Iterator it = h.iterator(); while(it.hasNext()) {
+		 * System.out.println(it.next()); }
+		 */
+			
+			TreeSet <String> t = new TreeSet();
+			
+			t.add("Raj");
+			t.add("Sai");
+			t.add("How");
+			t.add("are");
+			t.add("you");
+			t.add("?");
+			t.remove("Sai");
+			
+			Iterator it1 = t.iterator();
+				while(it1.hasNext()) {
+					System.out.println(it1.next());
+				}	
+			
+			
+	}
+	
+	
+
+}
